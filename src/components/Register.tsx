@@ -1,10 +1,17 @@
 import React, { useState } from "react";
-import { Inputs, UserData } from "../App";
 import axios from "axios";
-import { setCookie } from "../setCookie";
-interface Props {}
 
-const Register = ({}: Props): JSX.Element => {
+interface Inputs {
+  email: string;
+  password: string;
+}
+interface UserData {
+  isDelete: boolean;
+  email: string;
+  password: string;
+}
+
+const Register = (): JSX.Element => {
   const [inputValue, setInputValue] = useState<Inputs>({
     email: "",
     password: "",
@@ -18,11 +25,9 @@ const Register = ({}: Props): JSX.Element => {
     });
   };
 
-  const doSignUp = async (newData: UserData) => {
+  const register = async (newData: UserData) => {
     try {
-      const { data } = await axios.post("http://localhost:4000/register", newData);
-      //   console.log(data);
-      setCookie("accessToken", data["accessToken"], { path: "/" });
+      await axios.post("http://localhost:4000/register", newData, { withCredentials: true });
       console.log(`가입 완료야 야!`);
     } catch (error) {
       console.log(error);
@@ -37,17 +42,16 @@ const Register = ({}: Props): JSX.Element => {
       isDelete: false,
     };
     // signUpMutation.mutate(newData);
-    doSignUp(newData);
+    register(newData);
   };
 
   return (
     <>
       <>
-        {" "}
         <h1>회원가입</h1>
         <form onSubmit={(e) => onSubmitData(e)}>
-          <input name="email" onChange={inputChangeHandler} />
-          <input name="password" type="password" onChange={inputChangeHandler} />
+          <input type="text" placeholder="이메일" name="email" onChange={inputChangeHandler} />
+          <input type="password" placeholder="비밀번호" name="password" onChange={inputChangeHandler} />
           <button>회원가입</button>
         </form>
       </>

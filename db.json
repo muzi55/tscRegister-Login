@@ -14,76 +14,16 @@
   ],
   "users": [
     {
-      "email": "567asd@gmail.net",
-      "password": "$2a$10$oIEhIT7XSIk6Xq7K/S08M.AwTChCOSpImT9.gM21/26MPysmvnmya",
+      "email": "zxc123@naver.com",
+      "password": "$2a$10$HOjakd6g/FPLKjRs6oPSZeNpHfBX5ONFV3Hiw7Ut8Z2d6O0ajdEzq",
       "isDelete": false,
       "id": 1
     },
     {
-      "email": "567asd@gmail.net1",
-      "password": "$2a$10$5VNmiL84nozmztoQUuW5GOZ1zZ6pF0Ay.LvBVDtIOVHi./qEkepOe",
+      "email": "muzi5@kakao.com",
+      "password": "$2a$10$KY/B.Nv2hjnBO4PXhibmIui0mFTaiWLL/Ba4Q.cpGK9JS4bQEBZw6",
       "isDelete": false,
       "id": 2
-    },
-    {
-      "email": "56756@gmail.net",
-      "password": "$2a$10$6GHssPq7nRc1dXEiAnYJoe.f2bJmg3k1iCax6Nsi9meK/Xz3K9HA6",
-      "isDelete": false,
-      "id": 3
-    },
-    {
-      "email": "56756@gmail.net1",
-      "password": "$2a$10$Oae.36WoTTb1bIX7.RM5GOmWKeuod1o1ZTnwqPqxfGjPco041n2Za",
-      "isDelete": false,
-      "id": 4
-    },
-    {
-      "email": "56456@gmail.com",
-      "password": "$2a$10$Mguc3w2PqZ5jwLsP3qUm2OTH.CBgijPnpIGRpKUyQRU1dDtdcyTs6",
-      "isDelete": false,
-      "id": 5
-    },
-    {
-      "email": "1231aas@gmail.net",
-      "password": "$2a$10$yAXMurHK/M.mCN3V6fGilOvdNMuSmU7vRR2KFdYTdPVJQtCycgHjS",
-      "isDelete": false,
-      "id": 6
-    },
-    {
-      "email": "zxc123@naver.com",
-      "password": "$2a$10$ac3mR5p13TUJYgrFgtSvturXn9xQssDE0eBZQPaMzz9VjCAf.4K7G",
-      "isDelete": false,
-      "id": 7
-    },
-    {
-      "email": "rlatmfrl45@naver.com",
-      "password": "$2a$10$o9AeZaSyRdv2WU2ORL4QWuCkUMpR17fk03D4cIxq9COpiV26Wb6h.",
-      "isDelete": false,
-      "id": 8
-    },
-    {
-      "email": "z@naver.com",
-      "password": "$2a$10$5GrDK1pvIC7La5eKuerR8ew4xdG6UsJ90chfQyNFTgMe/E7UbS4Ca",
-      "isDelete": false,
-      "id": 9
-    },
-    {
-      "email": "z1@naver.com",
-      "password": "$2a$10$nwqKStUBYqZZbpZTQx.bB.ftOlOtZtyE4TVXxUZvp1OvTzcMrC8Bq",
-      "isDelete": false,
-      "id": 10
-    },
-    {
-      "email": "z13@naver.com",
-      "password": "$2a$10$Q7bMiCRa.Vn476Sr9H5mpuXDrUtPm5GOa7Jst9bBx2xU0P.vdc8s2",
-      "isDelete": false,
-      "id": 11
-    },
-    {
-      "email": "z1334@naver.com",
-      "password": "$2a$10$VENWeDcZz6644Y/.oMj1o.1PN5E2HXeWk5qoTnrNK4Es34Ow1YRvO",
-      "isDelete": false,
-      "id": 12
     }
   ]
 }
